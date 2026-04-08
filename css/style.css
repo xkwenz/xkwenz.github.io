@@ -1,0 +1,33 @@
+ /* ZMIENNE */
+:root {
+    --kolor-glowny: #3b3b3b;
+    --kolor-akcent: #b9504c;
+    --kolor-tla: rgb(255, 255, 255);
+    --kolor-tekstu: rgb(255, 255, 255);
+    --zaokraglenie: 2rem;
+}
+
+ /* OGOLNY WYGLAD STRONY */
+
+main {
+    flex: 1;
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-shadow: 0 0 0.5rem rgba(0,0,0,0.3);
+}
+
+body {
+    font-family: "roboto", sans-serif;
+    background-color: var(--kolor-tla);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+}

@@ -1,0 +1,70 @@
+h3 {
+    font-size: 1rem;
+    text-align: center;
+    font-weight: lighter;
+    color: var(--kolor-glowny);
+}
+
+h1 {
+    font-size: 3em;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: var(--kolor-akcent);
+}
+
+/* dla formularza */
+    
+form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+
+label {
+    display: block;
+    margin-top: 1.5rem;
+    margin-left: 0.5rem;
+    font-weight: bold;
+    color: var(--kolor-glowny);
+    transition: 0.3s;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid var(--kolor-glowny);
+    border-radius: var(--zaokraglenie);
+    font-size: 14px;
+    transition: border 0.3s, box-shadow 0.3s;
+}
+
+.sekcja_3 {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 1.5rem;
+}
+
+button {
+    font-size: 1rem;
+    width: 100%;
+    background-color: var(--kolor-akcent);
+    border-radius: var(--zaokraglenie);
+    color: white;
+    transition: 0.3s;
+    padding: 1rem;
+    border: none;
+}
+
+button:hover {
+    background-color: var(--kolor-glowny);
+}
+
+input:focus, input:hover, select:focus, select:hover, textarea:focus, textarea:hover {
+    border: 1px solid var(--kolor-akcent);
+    outline: none;
+}
+
+label:hover {
+    color: var(--kolor-akcent);
+}

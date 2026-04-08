@@ -1,0 +1,19 @@
+h3 {
+    font-size: 1rem;
+    text-align: center;
+    font-weight: lighter;
+    color: var(--kolor-glowny);
+}
+
+h1 {
+    font-size: 3em;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: var(--kolor-akcent);
+}
+
+h2 {
+    font-size: 2em;
+    margin: 2rem 0;
+    margin-left: 8%;
+}
